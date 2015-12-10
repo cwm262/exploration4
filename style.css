@@ -1,0 +1,14 @@
+.container {
+  width: 100%; }
+
+.column {
+  background: #1abc9c;
+  height: 200px;
+  display: block;
+  float: left;
+  width: 23%;
+  margin: 0 1%; }
+  .column:hover {
+    background: #148f77; }
+
+/*# sourceMappingURL=style.css.map */

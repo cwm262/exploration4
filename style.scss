@@ -1,0 +1,23 @@
+$container-width: 100%;
+$column-count: 4;
+$margin: 1%;
+$column-color: #1abc9c;
+$darker-column-color: darken($column-color, 10%);
+
+.container {
+    width: $container-width;
+}
+
+.column {
+    background: #1abc9c;
+    height: 200px;
+    display: block;
+    float: left;
+    width: ($container-width / $column-count) - ($margin * 2);
+    margin: 0 $margin;
+    &:hover{
+        background: $darker-column-color;
+    }
+}
+
+
